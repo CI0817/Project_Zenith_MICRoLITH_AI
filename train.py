@@ -342,7 +342,7 @@ def main() -> None:
     batch_size = 32
     num_epochs = 100
     learning_rate = 1e-3
-    scheduler_type = "ReduceLROnPlateau"  # or "MultiStepLR"
+    scheduler_type = "MultiStepLR"  # "MultiStepLR" or "ReduceLROnPlateau"
 
     # Scheduler settings.
     scheduler_props = {}
